@@ -1,0 +1,9 @@
+# view res/layout/main.xml #generated:13
+-keep class android.support.v4.view.PagerTitleStrip { <init>(...); }
+
+# view res/layout/main.xml #generated:1
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.zekfed.templates.android.phone.viewpager.Main { <init>(...); }
+

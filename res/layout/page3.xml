@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:columnOrderPreserved="true"
+        android:rowCount="5"
+        android:rowOrderPreserved="true" >
+
+        <TextView
+            android:id="@+id/thankstext"
+            android:layout_column="1"
+            android:layout_gravity="left"
+            android:layout_row="0"
+            android:text="About"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#33b5e5"
+            android:textSize="48dp" />
+
+        <TextView
+            android:id="@+id/creditsabouttext"
+            android:layout_column="1"
+            android:layout_gravity="left"
+            android:layout_row="2"
+            android:text="©2012 Asher Wood\n"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Space
+            android:layout_width="21dp"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="278dp"
+            android:layout_column="0"
+            android:layout_row="4" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="55dp"
+            android:layout_column="0"
+            android:layout_row="1" />
+    </GridLayout>
+
+</FrameLayout>
